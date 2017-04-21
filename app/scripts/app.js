@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { render } from "react-dom";
 import { Provider } from "react-redux";
 import Markdown from "./components/markdown.js";
+import Survey from "./components/survey.js";
 import AppRoot from "./components/app_root.js";
 
 const Nav = () => (
@@ -22,10 +23,7 @@ export default function app() {
           <Nav />
           <Route path="/" component={AppRoot} />
           <Route path="/markdown" component={Markdown} />
-
-          <Route path="/start" component={SurveyStart} />
-          <Route path="/question" component={Questions} />
-          <Route path="/results" component={Results} />
+          <Route path="/survey" component={Survey} />
 
         </div>
       </Router>
@@ -33,3 +31,6 @@ export default function app() {
     document.getElementById("app")
   );
 }
+
+// <Route path="/question" component={Questions} />
+// <Route path="/results" component={Results} />

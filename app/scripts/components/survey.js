@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Redirect } from "react-router-dom";
 
-class SurveyStart extends React.Component {
+class Survey extends React.Component {
   render() {
     return (
       <main>
@@ -26,4 +26,4 @@ class SurveyStart extends React.Component {
   }
 }
 
-export default SurveyStart;
+export default Survey;
