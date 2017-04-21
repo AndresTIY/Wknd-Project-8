@@ -3,12 +3,14 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { render } from "react-dom";
 import { Provider } from "react-redux";
+import Markdown from "./components/markdown.js";
 import AppRoot from "./components/app_root.js";
 
 const Nav = () => (
   <nav>
-    <li><Link to="/about">About</Link></li>
-    <li><Link to="/contact-us">Contact</Link></li>
+    <li><Link to="/markdown">Markdown Showdown</Link></li>
+    <li><Link to="/survey">Survey</Link></li>
+    <li><Link to="/jeopardy">Jeopardy</Link></li>
   </nav>
 );
 
@@ -18,7 +20,8 @@ export default function app() {
       <Router>
         <div>
           <Nav />
-          <Route exact path="/" component={AppRoot} />
+          <Route path="/" component={AppRoot} />
+          <Route path="/markdown" component={Markdown} />
 
         </div>
       </Router>
