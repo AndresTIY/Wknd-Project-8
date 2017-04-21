@@ -6,7 +6,8 @@ export default function AppReducer(state, action) {
     return {
       isSent: false, //md
       text: "", //md
-      confirmationMsg: "" //md
+      confirmationMsg: "", //md
+      surveyAnswers: []
     };
   }
 
@@ -31,6 +32,14 @@ export default function AppReducer(state, action) {
         confirmationMsg: ""
       });
     //markdown end
+    //survey start
+    case "SAVE_ANSWER":
+      var surveyAns = state.surveyAnswers.slice();
+      surveyAns.push(action.answer);
+      return Object.assign({}, state, {
+        surveyAnswers: surveyAns
+      });
+    //survey end
 
 
     default:

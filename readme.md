@@ -21,13 +21,13 @@
 
 ##### Editor
 - [X] Is this assignment complete?
-- [ ] Copy components/actions
+- [X] Copy components/actions
   - [X] action: save_note.js - change name
   - [X] comp: button.js - change name
   - [X] comp: markdown_preview.js - change name
   - [X] comp: text_area.js - change name
   - [X] base: api.js
-  - [X] reducer 
+  - [X] reducer
 
 
 ##### Quiz
