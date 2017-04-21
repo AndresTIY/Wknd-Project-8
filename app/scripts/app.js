@@ -4,8 +4,6 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { render } from "react-dom";
 import { Provider } from "react-redux";
 import AppRoot from "./components/app_root.js";
-import About from "./components/about.js";
-import Contact from "./components/contact.js";
 
 const Nav = () => (
   <nav>
@@ -21,8 +19,7 @@ export default function app() {
         <div>
           <Nav />
           <Route exact path="/" component={AppRoot} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact-us" component={Contact} />
+
         </div>
       </Router>
     </Provider>,

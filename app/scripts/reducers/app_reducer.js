@@ -23,7 +23,7 @@ export default function AppReducer(state, action) {
     case "CLEAR":
       return Object.assign({}, state, {
         text: "",
-        confirmationMsg: "Your note's been saved"
+        confirmationMsg: "Your note has been saved, click here to close message ✖️"
       });
 
     case "CLEAR_CONFIRM":

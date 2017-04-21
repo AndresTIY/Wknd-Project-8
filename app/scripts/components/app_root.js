@@ -2,8 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 import { Route, Link, NavLink } from "react-router-dom";
 import container from "../containers/all.js";
-import marked from "marked";
 //md
+import marked from "marked";
 import MdInput from "./md_input.js";
 import MdOutput from "./md_output.js";
 import MdButton from "./md_button.js";
@@ -24,7 +24,7 @@ class AppRoot extends React.Component {
     if (this.props.text.length < 50) {
       alert("note must be at least 50 characters");
     } else {
-      this.props.dispatch(saveNote(this.props.text));
+      this.props.dispatch(mdSaveNote(this.props.text));
     }
   }
 
@@ -34,13 +34,13 @@ class AppRoot extends React.Component {
         <h2 onClick={() => this.props.dispatch({ type: "CLEAR_CONFIRM" })}>
           {this.props.confirmationMsg}
         </h2>
-        <TextArea
+        <MdInput
           ref="textarea"
           textvalue={this.props.text}
           onChange={this.retrieveNote}
         />
-        <Markdown note={marked(this.props.text)} />
-        <Button onChange={this.saveNote} />
+        <MdOutput note={marked(this.props.text)} />
+        <MdButton onChange={this.saveNote} />
       </main>
     );
   }
