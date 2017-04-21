@@ -13,15 +13,22 @@
 
 ### Plan and Checklist
 ##### 4 Routes needed
+- [ ] within app.js
   - [ ] "/"
   - [ ] "/game"
   - [ ] "/quiz"
   - [ ] "/editor"
 
 ##### Editor
-- [ ] Is this assignment complete?
-- [ ] Copy components
-- [ ] Copy actions
+- [X] Is this assignment complete?
+- [ ] Copy components/actions
+  - [X] action: save_note.js - change name
+  - [X] comp: button.js - change name
+  - [X] comp: markdown_preview.js - change name
+  - [X] comp: text_area.js - change name
+  - [X] base: api.js
+  - [X] reducer 
+
 
 ##### Quiz
 - [ ] Is this assignment complete?
@@ -30,9 +37,12 @@
 
 ##### Reactpardy
 - [ ] Is this assignment complete?
-- [ ] Copy components 
+- [ ] Copy components
 - [ ] Copy actions
 
 ##### Test: Once All Old Code Is In
 - [ ] Minimum of 1 unit test per component
 - [ ] Minimum of 1 unit per reducer action
+
+##### Questions
+- Use 3 Containers!
