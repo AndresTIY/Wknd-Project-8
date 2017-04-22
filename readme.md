@@ -31,12 +31,12 @@
 
 
 ##### Quiz
-- [ ] Is this assignment complete?
-- [ ] Copy components
-- [ ] Copy actions
+- [Nope] Is this assignment complete?
+- [X] Copy components
+- [X] Copy actions
 
 ##### Reactpardy
-- [ ] Is this assignment complete?
+- [Nope] Is this assignment complete?
 - [ ] Copy components
 - [ ] Copy actions
 
