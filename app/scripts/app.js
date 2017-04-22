@@ -20,10 +20,10 @@ export default function app() {
     <Provider store={store}>
       <Router>
         <div>
-          <Nav />
           <Route path="/" component={AppRoot} />
           <Route path="/markdown" component={Markdown} />
           <Route path="/survey" component={Survey} />
+          <Nav />
 
         </div>
       </Router>
