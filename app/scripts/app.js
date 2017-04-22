@@ -6,11 +6,13 @@ import { Provider } from "react-redux";
 import Markdown from "./components/markdown.js";
 import Survey from "./components/survey.js";
 import AppRoot from "./components/app_root.js";
+import SurveyRoot from "./components/survey_root.js";
+import Questions from "./components/survey_question.js";
 
 const Nav = () => (
   <nav>
     <li><Link to="/markdown">Markdown Showdown</Link></li>
-    <li><Link to="/survey">Survey</Link></li>
+    <li><Link to="/surveyroot">Survey</Link></li>
     <li><Link to="/jeopardy">Jeopardy</Link></li>
   </nav>
 );
@@ -22,7 +24,10 @@ export default function app() {
         <div>
           <Route path="/" component={AppRoot} />
           <Route path="/markdown" component={Markdown} />
-          <Route path="/survey" component={Survey} />
+          <Route path="/surveyroot" component={SurveyRoot} />
+          <Route path="/surveystart" component={Survey} />
+          <Route path="/question" component={Questions} />
+
           <Nav />
 
         </div>

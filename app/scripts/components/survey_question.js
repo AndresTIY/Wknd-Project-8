@@ -51,7 +51,6 @@ class Question1 extends React.Component {
     );
   }
 }
-
 class Question2 extends React.Component {
   constructor(props) {
     super(props);
