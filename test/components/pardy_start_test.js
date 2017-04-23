@@ -8,7 +8,7 @@ describe("Start View component", () => {
   it("Should have an input tag", () => {
     let component = shallow(<StartView />);
     expect(component.html()).toContain(
-      '<input ref="name" placeholder="what is your name?" type="text" />'
+      '<input type="text" placeholder="what is your name?"/>'
     );
   });
 });

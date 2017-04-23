@@ -53,6 +53,7 @@
 - [ ] Minimum of 1 unit test per component
 - [ ] Minimum of 1 unit per reducer action
 - [] 16 comps, 2 actions, 9 reducer actions
+Errors:  Invariant Violation: Could not find "store" in either the context or props of "Connect(SurveyRoot)". Either wrap the root component in a <Provider>, or explicitly pass "store" as a prop to "Connect(SurveyRoot)".
 
 ##### Questions
 - Use 3 Containers!
