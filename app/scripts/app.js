@@ -23,7 +23,7 @@ export default function app() {
     <Provider store={store}>
       <Router>
         <div>
-          <Route path="/" component={AppRoot} />
+          <Route exact path="/" component={AppRoot} />
           <Route path="/markdown" component={Markdown} />
           <Route path="/surveyroot" component={SurveyRoot} />
           <Route path="/surveystart" component={Survey} />

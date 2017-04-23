@@ -1,0 +1,20 @@
+.start-card{
+  width: 80%;
+  background: $color-blue-bg;
+  border: 2px solid $color-font-yellow;
+  margin: 5rem auto;
+  text-align: center;
+  padding: .5rem 0;
+  * {
+    display: block;
+    margin: 3rem auto;
+    font-size: 2rem;
+    box-shadow: 5px 5px $color-darkblue-bg;
+    padding: .5rem;
+  }
+  button:hover {
+    border: none;
+    color: white;
+    background: $color-darkblue-bg;
+  }
+}

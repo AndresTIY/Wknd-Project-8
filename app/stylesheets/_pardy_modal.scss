@@ -1,0 +1,26 @@
+.modal {
+  width: 40%;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  background: $color-blue-bg;
+  color: $color-font-main;
+  padding: 2rem;
+  border: 1px solid $color-font-yellow;
+  text-align: center;
+  .modal-cat{
+    color: $color-font-yellow;
+  }
+  button {
+    padding: .5rem;
+  }
+  button:hover {
+    border: none;
+    color: white;
+    background: $color-darkblue-bg;
+  }
+  * {
+    display: block;
+    margin: 1rem auto;
+  }
+}

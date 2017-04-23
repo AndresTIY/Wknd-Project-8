@@ -8,7 +8,7 @@ export default function AppReducer(state, action) {
       text: "", //md
       confirmationMsg: "", //md
       surveyAnswers: [],
-      startClick: false,
+      startClick: false, //pardy
       name: "",
       data: [],
       modal: false

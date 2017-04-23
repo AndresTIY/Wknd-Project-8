@@ -14,7 +14,7 @@ const PardyRoot = React.createClass({
     }
 
     return (
-      <section>
+      <section className="pardy-main">
         <div className={showClass}>
           <StartView />
         </div>
