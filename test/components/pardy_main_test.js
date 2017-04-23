@@ -4,7 +4,7 @@ import { shallow, mount, render } from "enzyme";
 
 import MainView from "../../app/scripts/components/pardy_main.js";
 
-describe("Contact Component", () => {
+describe("MainView Component", () => {
   it("Should contain HeaderView component", () => {
     let component = shallow(<MainView />);
     expect(component.html()).toContain("<HeaderView />");

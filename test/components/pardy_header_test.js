@@ -4,7 +4,7 @@ import { shallow, mount, render } from "enzyme";
 
 import HeaderView from "../../app/scripts/components/pardy_header.js";
 
-describe("Contact Component", () => {
+describe("HeaderView Component", () => {
   it("Should contain the grabName function", () => {
     let component = shallow(<HeaderView />);
     expect(component.text()).toContain("this.grabName()");

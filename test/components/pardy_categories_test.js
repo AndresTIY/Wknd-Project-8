@@ -6,8 +6,8 @@ import CatView from "../../app/scripts/components/pardy_categories.js";
 
 const htmlToExpect = "<ValuesView category={datum.title} datum={datum} />";
 
-describe("Contact Component", () => {
-  it("Should ask the user to contact us", () => {
+describe("CatView Component", () => {
+  it("Should contain ValuesView component", () => {
     let component = shallow(<CatView />);
     expect(component.html()).toContain(htmlToExpect);
   });

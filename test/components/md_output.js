@@ -4,8 +4,8 @@ import { shallow, mount, render } from "enzyme";
 
 import MdOutput from "../../app/scripts/components/md_output.js";
 
-describe("Contact Component", () => {
-  it("Should ask the user to contact us", () => {
+describe("MdOutput Component", () => {
+  it("Should contain the dangerouslySetInnerHTML", () => {
     let component = shallow(<MdOutput />);
     expect(component.text()).toContain("dangerouslySetInnerHTML");
   });

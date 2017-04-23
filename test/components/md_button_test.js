@@ -4,7 +4,7 @@ import { shallow, mount, render } from "enzyme";
 
 import MdButton from "../../app/scripts/components/md_button.js";
 
-describe("Contact Component", () => {
+describe("MdButton Component", () => {
   it("Should have an onClick event", () => {
     let component = shallow(<MdButton />);
     expect(component.text()).toContain("onClick={this.props.onChange}");
