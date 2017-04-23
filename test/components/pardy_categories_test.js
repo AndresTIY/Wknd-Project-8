@@ -9,6 +9,6 @@ const htmlToExpect = "<ValuesView category={datum.title} datum={datum} />";
 describe("CatView Component", () => {
   it("Should contain ValuesView component", () => {
     let component = shallow(<CatView />);
-    expect(component.html()).toContain(htmlToExpect);
+    expect(component.find("ValuesView")).to.have.length(1);
   });
 });

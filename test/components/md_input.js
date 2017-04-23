@@ -4,7 +4,7 @@ import { shallow, mount, render } from "enzyme";
 
 import MdInput from "../../app/scripts/components/md_input.js";
 
-const textArea = "<textarea />";
+const textArea = "<textarea ";
 
 describe("MdInput Component", () => {
   it("Should have a text area for input", () => {

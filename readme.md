@@ -13,11 +13,11 @@
 
 ### Plan and Checklist
 ##### 4 Routes needed
-- [ ] within app.js
-  - [ ] "/"
-  - [ ] "/game"
-  - [ ] "/quiz"
-  - [ ] "/editor"
+- [X] within app.js
+  - [X] "/"
+  - [X] "/game"
+  - [X] "/quiz"
+  - [X] "/editor"
 
 ##### Editor
 - [X] Is this assignment complete?
@@ -46,13 +46,13 @@
 - [X] comp: modal_view
 - [X] comp: start view
 - [X] comp: value view
-- [] reducer
+- [X] reducer
 
-##### All Styles
--
+
 ##### Test: Once All Old Code Is In
 - [ ] Minimum of 1 unit test per component
 - [ ] Minimum of 1 unit per reducer action
+- [] 16 comps, 2 actions, 9 reducer actions
 
 ##### Questions
 - Use 3 Containers!
