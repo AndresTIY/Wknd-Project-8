@@ -1,0 +1,42 @@
+.text-area {
+  border: 1px solid $color-blackblue;
+  width: 25rem;
+  text-align: center;
+  margin: 1rem;
+  display: inline-block;
+}
+
+
+.md-preview-card {
+  border: 1px solid $color-blackblue;
+  width: 25rem;
+  text-align: center;
+  display: inline-block;
+  margin: 1rem;
+
+  .md-preview {
+    background: white;
+    width: 23rem;
+    border: 1px solid $color-blackblue;
+    margin: .5rem auto;
+    height: 25rem;
+    overflow: hidden;
+  }
+    p {
+      text-align: left;
+    }
+}
+
+.btn-action {
+  button {
+    display: block;
+    margin: 1rem auto;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  button:hover {
+    color: $color-verylightblue;
+    background: $color-blackblue;
+    border-style: none;
+  }
+}
