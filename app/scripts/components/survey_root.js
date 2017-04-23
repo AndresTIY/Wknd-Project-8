@@ -11,7 +11,7 @@ class SurveyRoot extends React.Component {
 
   render() {
     return (
-      <section>
+      <section className="survey-base">
         <Survey />
       </section>
     );

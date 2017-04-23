@@ -1,0 +1,56 @@
+.survey-base {
+
+    text-align: center;
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        margin: 1rem;
+      }
+    }
+    .start {
+      display: block;
+      width: 10rem;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      box-shadow: 5px 5px $color-kindaGreen;
+      margin: 1rem auto;
+      background: $color-someshadeofBrown;
+      color: $color-darkBlue;
+
+      a:visited {
+        color: $color-pinkishSkinColor;
+      }
+  }
+
+
+
+  a {
+    color: $color-kindaGreen;
+  }
+  a:visited {
+    color: $color-kindaGreen;
+  }
+}
+
+.questions {
+  background: $color-darkBlue;
+  color: $color-pinkishSkinColor;
+  font-family: Helvetica Neue, sans-serif;
+  width: 50%;
+  margin: 3rem auto;
+  border: 1px solid black;
+  text-align: center;
+  * {
+    display: block;
+    margin: 1rem auto;
+  }
+  a {
+    color: $color-kindaGreen;
+  }
+  a:visited {
+    color: $color-kindaGreen;
+  }
+
+
+}
