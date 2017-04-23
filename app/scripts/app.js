@@ -8,6 +8,7 @@ import Survey from "./components/survey.js";
 import AppRoot from "./components/app_root.js";
 import SurveyRoot from "./components/survey_root.js";
 import Questions from "./components/survey_question.js";
+import PardyRoot from "./components/pardy_root.js";
 
 const Nav = () => (
   <nav>
@@ -27,6 +28,7 @@ export default function app() {
           <Route path="/surveyroot" component={SurveyRoot} />
           <Route path="/surveystart" component={Survey} />
           <Route path="/question" component={Questions} />
+          <Route path="/jeopardy" component={PardyRoot} />
 
           <Nav />
 

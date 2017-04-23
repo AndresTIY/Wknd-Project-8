@@ -1,5 +1,5 @@
 import React from "react";
-import categories from "../actions/load_categories";
+import categories from "../actions/pardy_load_cat.js";
 import store from "../store.js";
 const StartView = React.createClass({
   buttonClick: function() {
