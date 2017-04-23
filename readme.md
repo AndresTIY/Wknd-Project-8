@@ -38,15 +38,15 @@
 ##### Reactpardy
 - [Nope] Is this assignment complete?
 - [ ] Copy components, actions
-- [] actions: load_categories
-- [] comp: app_root
-- [] comp: categories_view
-- [] comp: header_view
-- [] comp: main_view
+- [X] actions: load_categories
+- [X] comp: app_root
+- [X] comp: categories_view
+- [X] comp: header_view
+- [X] comp: main_view
 - [] comp: modal_view
-- [] comp: start view
+- [X] comp: start view
 - [] comp: value view
-reducer
+- [] reducer
 ##### Test: Once All Old Code Is In
 - [ ] Minimum of 1 unit test per component
 - [ ] Minimum of 1 unit per reducer action
