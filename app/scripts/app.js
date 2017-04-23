@@ -11,7 +11,7 @@ import Questions from "./components/survey_question.js";
 import PardyRoot from "./components/pardy_root.js";
 
 const Nav = () => (
-  <nav>
+  <nav className="nav">
     <li><Link to="/markdown">Markdown Showdown</Link></li>
     <li><Link to="/surveyroot">Survey</Link></li>
     <li><Link to="/jeopardy">Jeopardy</Link></li>
@@ -23,14 +23,14 @@ export default function app() {
     <Provider store={store}>
       <Router>
         <div>
+          <Nav />
+
           <Route exact path="/" component={AppRoot} />
           <Route path="/markdown" component={Markdown} />
           <Route path="/surveyroot" component={SurveyRoot} />
           <Route path="/surveystart" component={Survey} />
           <Route path="/question" component={Questions} />
           <Route path="/jeopardy" component={PardyRoot} />
-
-          <Nav />
 
         </div>
       </Router>

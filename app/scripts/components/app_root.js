@@ -6,7 +6,7 @@ class AppRoot extends React.Component {
   render() {
     return (
       <main>
-        <h1>Check Out My Projects! </h1>
+        <h1 className="h1">Check Out My Projects! </h1>
       </main>
     );
   }
